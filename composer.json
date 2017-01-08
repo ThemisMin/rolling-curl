@@ -30,6 +30,6 @@
         "lib-curl": "*"
     },
     "autoload": {
-        "psr-0": { "Themismin\\RollingCurl\\": "src/" }
+        "psr-0": { "Themismin\\RollingCurl\\": "src/RollingCurl/" }
     }
 }
