@@ -13,9 +13,9 @@
  * @link https://github.com/chuyskywalker/rolling-curl
  */
 
-namespace RollingCurl;
+namespace ThemisMin\RollingCurl;
 
-use RollingCurl\Request;
+use ThemisMin\RollingCurl\Request;
 
 
 /**
