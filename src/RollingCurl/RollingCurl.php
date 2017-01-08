@@ -275,7 +275,8 @@ class RollingCurl
                 // if there is a callback, run it
                 if (is_callable($this->callback)) {
                     $callback = $this->callback;
-                    $callback($request, $this);
+                    // $callback($request, $this);
+                    call_user_func($callback, $request, $this);
                 }
 
                 // if something was requeued, this will get it running/update our loop check values
